@@ -10,6 +10,8 @@ I will be updating this repo in the future to accommodate other databases and co
 ## Setup
 Set the right execution permission for our simple sh script
 - `chmod +x list-commands.sh`
+Rename .env-example to .env
+-  `mv .env-example .env`
 We need directories to store our database files and mount them. Execute the command below
 -  `mkdir -p mysql/data postgres/data`
 
